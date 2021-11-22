@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
+/*
+--bg: #10121B;
+--sidebar: #191D2B;
+--main-blue-color: #037FFF;
+--main-border-color: #2e344e;
+--font-color: #a4acc4;
+*/
 
 .App-logo {
   height: 40vmin;
