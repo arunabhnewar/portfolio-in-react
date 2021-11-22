@@ -4,8 +4,8 @@ import Home from './Pages/Home/Home';
 import Navbar from './Pages/Shared/Navbar/Navbar';
 import About from './Pages/About/About';
 import Portfolio from './Pages/Portfolio/Portfolio';
-import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 
@@ -27,11 +27,11 @@ function App() {
             <Route exact path="/portfolio">
               <Portfolio />
             </Route>
-            <Route exact path="/blogs">
-              <Blogs />
-            </Route>
             <Route exact path="/contact">
               <Contact />
+            </Route>
+            <Route exact path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
