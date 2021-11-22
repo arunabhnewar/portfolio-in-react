@@ -48,10 +48,14 @@
 
                     &:hover::before{
                         width: 100%;
-                        transform: scale(1);
+                        transform: scale(0.9);
                     }
                 }
             }
+        }
+
+        .active{
+            background-color: #0a83fc;
         }
 
         .footer{

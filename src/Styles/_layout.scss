@@ -24,5 +24,8 @@
         margin-left: 16%;
         background-color: #10121B;
         min-height: 100vh;
+        background-image: url(../images/dots.svg);
+        display: grid;
+        position: relative;
     }
 }
