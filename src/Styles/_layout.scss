@@ -18,6 +18,12 @@
         }
     }
 
+    .nav-toggle{
+        @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+        }
+    }
 
     .main-content {
         width: 84%;
