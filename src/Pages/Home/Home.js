@@ -1,4 +1,4 @@
-import { faFacebook, faGithub, faLinkedin, faTwitter, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useRef } from 'react';
 import { init } from "ityped";

@@ -33,7 +33,14 @@ const ImageSection = () => {
                     </div>
                 </div>
 
-                <button className="btn">Download Cv</button>
+                <button className="btn">
+                    <a href="https://drive.google.com/file/d/107a1CmcPDsPG9TApwOEDErXVA8tpoXMr/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ textDecoration: 'none', color: "white" }}>
+                        Download Cv
+                    </a>
+                </button>
             </div>
         </div>
     );
