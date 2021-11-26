@@ -1,4 +1,4 @@
-import { faFacebook, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faTwitter, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useRef } from 'react';
 import { init } from "ityped";
@@ -33,6 +33,13 @@ const Home = () => {
                         <FontAwesomeIcon icon={faFacebook} className="icon fb" />
                     </a>
 
+                    <a href="https://www.linkedin.com/in/arunabh-newar-bb7126215/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-holder" >
+                        <FontAwesomeIcon icon={faLinkedin} className="icon li" />
+                    </a>
+
                     <a href="https://github.com/ArunabhNewar"
                         target="_blank"
                         rel="noreferrer"
@@ -44,7 +51,7 @@ const Home = () => {
                         target="_blank"
                         rel="noreferrer"
                         className="icon-holder">
-                        <FontAwesomeIcon icon={faTwitter} className="icon tt" />
+                        <FontAwesomeIcon icon={faTwitterSquare} className="icon tt" />
                     </a>
                 </div>
             </header>

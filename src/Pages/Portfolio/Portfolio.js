@@ -3,6 +3,7 @@ import Title from '../../Components/Title';
 import Categories from '../../Components/Categories';
 import MenuItems from '../../Components/MenuItems';
 import portfolios from '../../Components/allPortfolios';
+import Zoom from 'react-reveal/Zoom';
 
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
 
@@ -30,7 +31,10 @@ const Portfolio = () => {
 
             <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />
-                <MenuItems menuItem={menuItems} />
+                <Zoom bottom>
+                    <MenuItems menuItem={menuItems} />
+                </Zoom>
+
             </div>
         </div>
     );
