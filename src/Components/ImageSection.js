@@ -34,7 +34,7 @@ const ImageSection = () => {
                 </div>
 
                 <button className="btn">
-                    <a href="https://drive.google.com/file/d/107a1CmcPDsPG9TApwOEDErXVA8tpoXMr/view?usp=sharing"
+                    <a href=" https://drive.google.com/file/d/1nt9jBIylT4m5zPQTk-jM4u-rlte6eCkE/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: 'none', color: "white" }}>
