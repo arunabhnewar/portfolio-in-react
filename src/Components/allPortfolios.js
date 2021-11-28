@@ -1,7 +1,7 @@
 import bikeHouse from '../images/portImages/bike-house.png';
-// import port4 from '../images/portImages/port3.jpg';
-// import port6 from '../images/portImages/port5.jpg';
-// import port7 from '../images/portImages/port6.jpg';
+import dreamyTravel from '../images/portImages/dreamy-travel.jpg';
+import bodyFit from '../images/portImages/body-fit.png';
+
 
 const portfolios = [
     {
@@ -10,27 +10,29 @@ const portfolios = [
         image: bikeHouse,
         title: 'Bike House Website',
         details: 'React, Node, Mongodb, Express, Heroku, Bootstrap, Firebase',
-        link: ' https://bike-house-client.web.app/',
-        link2: 'https://github.com/arunabhnewar/bike-house-client'
+        link: 'https://bike-house-client.web.app/',
+        link2: 'https://github.com/arunabhnewar/bike-house-client',
+        link3: 'https://github.com/arunabhnewar/bike-house-server.git',
+    },
+    {
+        id: 2,
+        category: 'React Js',
+        image: dreamyTravel,
+        title: 'Dreamy Travel Website',
+        details: 'React, Node, Mongodb, Express, Heroku, Bootstrap, Firebase',
+        link: 'https://dreamy-travel-client.web.app/',
+        link2: 'https://github.com/arunabhnewar/dreamy-travel-client',
+        link3: 'https://github.com/arunabhnewar/dreamy-travel-server',
+    },
+    {
+        id: 3,
+        category: 'React Js',
+        image: bodyFit,
+        title: 'Body Fit Website',
+        details: 'React, Bootstrap, Firebase',
+        link: 'https://body-fit-fitness.web.app/',
+        link2: 'https://github.com/arunabhnewar/body-fit-fitness'
     }
-    // {
-    //     id: 2,
-    //     category: 'React Js',
-    //     image: port6,
-    //     title: 'Getting Started With React',
-    //     details: 'abvd',
-    //     link: '',
-    //     link2: 'www.github.com'
-    // },
-    // {
-    //     id: 3,
-    //     category: 'React Js',
-    //     image: port7,
-    //     title: 'Vanilla Javascript Website',
-    //     details: 'abvd',
-    //     link: '',
-    //     link2: 'www.github.com'
-    // },
     // {
     //     id: 4,
     //     category: 'Test Port',

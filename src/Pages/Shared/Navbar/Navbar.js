@@ -23,7 +23,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <NavLink exact to="/portfolio" activeClassName="active">
-                            Portfolio
+                            Projects
                         </NavLink>
                     </li>
                     <li className="nav-item">

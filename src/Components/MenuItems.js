@@ -32,19 +32,36 @@ const MenuItems = ({ menuItem }) => {
                                     Live
                                 </a>
                             </span>
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href={item.link2}
-                                className="btn-port"
-                                style={{ textDecoration: 'none' }}
-                            >
-                                Code
-                            </a>
-                            <span>
 
+                            <span>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={item.link2}
+                                    className="btn-port"
+                                    style={{ textDecoration: 'none' }}
+                                >
+                                    Client
+                                </a>
                             </span>
                         </div>
+
+                        <br />
+                        <div>
+                            <span>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={item.link3}
+                                    className="btn-port"
+                                    style={{ textDecoration: 'none', marginTop: "100px" }}
+                                >
+                                    Server
+                                </a>
+                            </span>
+                        </div>
+
+
                     </div>
                 })
             }

@@ -5,7 +5,11 @@ const Categories = ({ filter, categories }) => {
         <div className="buttons">
             {
                 categories.map((cat, i) => {
-                    return <button type="button" className="btn-port" onClick={() => filter(cat)} key={i}>{cat}</button>
+                    return <button type="button"
+                        className="btn-port"
+                        onClick={() => filter(cat)}
+                        key={i}
+                    >{cat}</button>
                 })
             }
         </div>
