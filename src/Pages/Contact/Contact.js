@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div>
             <div className="contact-container">
-                <Title title={'About Me'} span={'About Me'} />
+                <Title title={'Contact'} span={'contact'} />
             </div>
 
             <div className="ContactPage">
@@ -27,9 +27,6 @@ const Contact = () => {
                         <ContactItem icon={location} text1={'Majherbasti, Tabalchari, Rangamati'} text2={'Bangladesh'} title={'Address'} />
                     </div>
                 </Fade>
-
-
-
             </div>
         </div>
     );
