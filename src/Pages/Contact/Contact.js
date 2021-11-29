@@ -7,6 +7,8 @@ import Title from '../../Components/Title';
 import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
+
+
     return (
         <div>
             <div className="contact-container">
@@ -27,6 +29,20 @@ const Contact = () => {
                         <ContactItem icon={location} text1={'Majherbasti, Tabalchari, Rangamati'} text2={'Bangladesh'} title={'Address'} />
                     </div>
                 </Fade>
+            </div>
+
+
+
+            <div>
+                <form
+                    action="https://formsubmit.co/ab5ead84b8bd27899dcb0fbfe1ea74dd" method="POST">
+                    <input type="text" name="name" id="#" required />
+                    <input type="email" name="email" required />
+                    <br />
+                    <textarea name="text" id="3" cols="30" rows="10"></textarea>
+                    <br />
+                    <button type="submit">Send</button>
+                </form>
             </div>
         </div>
     );
