@@ -17,7 +17,6 @@ const ImageSection = () => {
                 <div className="about-details">
                     <div className="left-section">
                         <p>Full Name</p>
-                        {/* <p>Age</p> */}
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
@@ -25,7 +24,6 @@ const ImageSection = () => {
                     </div>
                     <div className="right-section">
                         <p>: Arunabh Newar</p>
-                        {/* <p>: </p> */}
                         <p>: Bangladeshi</p>
                         <p>: Bangla, English, Hindi</p>
                         <p>: Majher basti, Tabalchari, Rangamati</p>
@@ -38,7 +36,7 @@ const ImageSection = () => {
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: 'none', color: "white" }}>
-                        Download Cv
+                        Download Resume
                     </a>
                 </button>
             </div>
