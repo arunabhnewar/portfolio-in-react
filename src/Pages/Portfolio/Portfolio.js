@@ -26,7 +26,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio-container">
             <div className="portfolio-section">
-                <Title title={'Projects'} span={'About Me'} />
+                <Title title={'Project'} span={'project'} />
             </div>
 
             <div className="portfolios-data">

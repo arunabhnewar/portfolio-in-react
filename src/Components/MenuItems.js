@@ -1,6 +1,7 @@
 import React from 'react';
 
 const MenuItems = ({ menuItem }) => {
+
     return (
         <div className="portfolis">
             {
@@ -47,19 +48,21 @@ const MenuItems = ({ menuItem }) => {
                         </div>
 
                         <br />
-                        <div>
-                            <span>
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href={item.link3}
-                                    className="btn-port"
-                                    style={{ textDecoration: 'none', marginTop: "100px" }}
-                                >
-                                    Server
-                                </a>
-                            </span>
-                        </div>
+                        {item.link3 &&
+                            <div>
+                                <span>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href={item.link3}
+                                        className="btn-port"
+                                        style={{ textDecoration: 'none', marginTop: "100px" }}
+                                    >
+                                        Server
+                                    </a>
+                                </span>
+                            </div>
+                        }
 
 
                     </div>
